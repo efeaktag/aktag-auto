@@ -1,35 +1,31 @@
+import { MetadataRoute } from "next";
 import products from "@/data/products";
 
 export default function sitemap() {
   const siteUrl = "https://aktagauto.com";
+  const lastModified = new Date();
 
-  // Statik sayfalar
   const staticRoutes = [
     {
-      url: `${siteUrl}/`,
+      url: siteUrl, // slash koyma, buna gerek yok
+      lastModified,
       changeFrequency: "weekly",
       priority: 1,
     },
     {
       url: `${siteUrl}/products`,
+      lastModified,
       changeFrequency: "daily",
       priority: 0.9,
     },
   ];
 
-  // Ürün sayfaları
   const productRoutes = products.map((product) => ({
     url: `${siteUrl}/product/${product.id}`,
+    lastModified,
     changeFrequency: "weekly",
     priority: 0.7,
   }));
 
-  // ✅ lastModified sabit: build zamanı / deploy zamanı gibi düşün
-  // (her request'te değişip botları şaşırtmasın)
-  const lastModified = new Date();
-
-  return [...staticRoutes, ...productRoutes].map((route) => ({
-    ...route,
-    lastModified,
-  }));
+  return [...staticRoutes, ...productRoutes];
 }
