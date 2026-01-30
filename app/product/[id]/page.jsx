@@ -3,6 +3,7 @@ import Image from "next/image";
 import products from "@/data/products";
 import ProductGallery from "@/components/ProductGallery";
 
+
 // 🔁 ÖNERİLEN ÜRÜNLERİ GETİR
 const getRecommendedProducts = (products, currentProduct) => {
   return products
@@ -74,7 +75,7 @@ export default async function ProductPage({ params }) {
   }
 
   const recommendedProducts = getRecommendedProducts(products, product);
-  const siteUrl = "https://aktagauto.com";
+  
 
   const productUrl = `${siteUrl}/product/${product.id}`;
   const absoluteMainImage =
