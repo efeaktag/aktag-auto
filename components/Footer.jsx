@@ -41,7 +41,7 @@ export default function Footer() {
 
         {/* TELEFON */}
         <p className="mb-2">
-          📞 0544 472 0467
+          📞 05426310167
         </p>
 
         {/* MAİL */}
