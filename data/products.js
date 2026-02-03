@@ -21,8 +21,8 @@ const products = [
     id: 2,
     brand: "Ebrayn",
     name: "Torpido Parlatıcı Aerosol 220 ML",
-    oldPrice: 319.00,
-    price: 299.99,
+    oldPrice: 240.00,
+    price: 219.99,
     image: "/products/torpido-parlatici-aerosol.png",
     images: ["/products/torpido-parlatici-aerosol1.png",],
     category: ["ic-bakim"],
@@ -273,6 +273,7 @@ const products = [
     features: ["Yüksek su tutuşu", "Ergonomik yapı"],
     usage: "Şampuanlı suya batırarak köpürtün. Aracın her bölgesini dairesel hareketlerle nazikçe silerek yıkayın ve kirlendikçe temiz suyla durulayıp tekrar şampuanlayın."
   },
+  
 ];
 
 export default products;

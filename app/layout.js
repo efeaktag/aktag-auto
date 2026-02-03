@@ -25,7 +25,7 @@ export const metadata = {
   metadataBase: new URL("https://aktagauto.com"),
 
   icons: {
-  icon: "/favicon.ico",
+  icon: "/logo.ico",
   apple: "/apple-touch-icon.png",
 },
 manifest: "/site.webmanifest",
@@ -38,10 +38,10 @@ manifest: "/site.webmanifest",
     siteName: "Aktağ Auto",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.jpg", // public içindeki görselin yolu
         width: 1200,
         height: 630,
-        alt: "Aktağ Auto",
+        alt: "Aktağ Auto Logo",
       },
     ],
     locale: "tr_TR",
