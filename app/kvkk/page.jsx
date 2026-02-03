@@ -5,7 +5,7 @@ export const metadata = {
 
 export default function KVKKPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-16 text-slate-300">
+    <div className="max-w-4xl mx-auto px-4 py-16 text-slate-300 bg-neutral-950">
       <h1 className="text-2xl font-bold text-white mb-6">
         KVKK Aydınlatma Metni
       </h1>

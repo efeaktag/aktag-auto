@@ -12,7 +12,7 @@ export default function IletisimPage() {
     process.env.NEXT_PUBLIC_WHATSAPP_PHONE || "905426310167";
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-16 text-slate-300">
+    <div className="max-w-4xl mx-auto px-4 py-16 text-slate-300 bg-neutral-950">
       <h1 className="text-2xl font-bold text-white mb-6">İletişim</h1>
 
       <p className="mb-4">

@@ -15,6 +15,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport = {
+  themeColor: "#0a0a0a", // Tarayıcı çubuğu rengi
+  colorScheme: "dark",   // Tarayıcıya "bu site karanlıktır" der
+  width: "device-width",
+  initialScale: 1,
+};
+
 export const metadata = {
   title: {
     default: "Aktağ Auto | Profesyonel Oto Bakım Ürünleri",
