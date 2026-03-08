@@ -81,7 +81,21 @@ const products = [
     features: ["Yüzeyi Korur & Parlaklık Kazandırır.", "Uygulama seti içindedir."],
     usage: "Yıkanmış ve tamamen kurulanmış araca uygulayın. Uygulama süngeriyle ince bir tabaka halinde dairesel hareketlerle yayın, 5-10 dakika puslu bir tabaka oluşmasını bekleyip temiz mikrofiber bezle parlatın."
   },
-  /* ürün 7 yok eklenebilir */
+
+  {
+    id: 7,
+    brand: "Nanowash",
+    name: "Jant Temizleyici 500 ml – Güçlü Fren Tozu Çözücü Oto Jant Temizleme Spreyi",
+    oldPrice: 230.00,
+    price: 195.00,
+    image: "/products/n-jant-temizleyici.png",
+    images: ["/products/n-jant-temizleyici1.png","/products/n-jant-temizleyici2.png","/products/n-jant-temizleyici3.png"],
+    category: ["dis-bakim"],
+    description: "Araç jantlarında zamanla biriken fren tozu, yol kiri, yağ kalıntıları ve inatçı lekeler aracınızın görünümünü olumsuz etkiler. Nanowash MW Jant Temizleyici, özel formülü sayesinde zorlu kirleri hızlıca çözer ve jantlarınıza ilk günkü parlaklığını kazandırır. Güçlü aktif temizleyici bileşenleri sayesinde alüminyum, çelik ve alaşım jantlarda güvenle kullanılabilir. Düzenli kullanımda jant yüzeyinde biriken fren tozlarının oluşturduğu mat görünümü ortadan kaldırır",
+    features: ["Zorlu fren tozlarını çözer", "Kir ve yağ kalıntılarını sökerek temizler","Jantlarda parlak ve temiz görünüm sağlar","Sprey formu sayesinde kolay uygulama","500 ml ekonomik kullanım"],
+    usage: "Ürünü kuru veya hafif nemli jant yüzeyine püskürtün. 1–2 dakika bekleyin. Gerekirse yumuşak bir fırça ile destekleyin. Bol su ile durulayın. Daha etkili sonuç için jant fırçası ile uygulama önerilir."
+  },
+
   {
     id: 8,
     brand: "Ebrayn",
@@ -172,19 +186,20 @@ const products = [
     features: ["Hızlı Uygulama", "10-15 Gün Kalıcılık", "500 ML"],
     usage: "Lastikleri temizledikten sonra spreyi 20 cm mesafeden lastik yüzeyine püskürtün. Kendi kendine kurumaya bırakın, herhangi bir silme işlemi gerektirmez."
   },
-  /*
+
   {
     id: 15,
-    brand: "Ebrayn",
-    name: "Mikrofiber Bez 50*70",
-    oldPrice: 260,
-    price: 220,
-    image: "/products/mikrofiber-bez.png",
-    category: ["ic-bakim","dis-bakim","cam-bakim"],
-    description: "Tüm yüzeylerde mükemmel sonuç veren yüksek emiş gücüne sahip bez.",
-    features: ["Her yüzeye uygun", "50*70 Boyut"],
-    usage: "İç ve dış tüm temizlik işlemlerinde; cila parlatma veya genel kurulama için dairesel hareketlerle kullanın. Hem kuru hem nemli kullanım için uygundur."
-  },*/
+    brand: "Nanowash",
+    name: "Cam Temizleyici 500 ml – İz Bırakmayan Oto Cam Temizleme Spreyi | Buğu ve Kir Çözücü",
+    oldPrice: 140.00,
+    price: 115.00,
+    image: "/products/n-cam-temizleyici.png",
+    images: ["/products/n-cam-temizleyici1.png","/products/n-cam-temizleyici2.png","/products/n-cam-temizleyici3.png"],
+    category: ["cam-bakim","ic-bakim"],
+    description: "Araç camlarında oluşan toz, parmak izi, yağ kalıntısı ve yol kirleri hem görüş kalitesini düşürür hem de sürüş güvenliğini olumsuz etkiler. Nanowash MW Cam Temizleyici, özel geliştirilmiş formülü sayesinde cam yüzeylerde iz bırakmadan etkili temizlik sağlar. Ön cam, arka cam ve yan camlarda güvenle kullanılabilir. Cam yüzeyde hızlı kuruma özelliği sayesinde silme sonrası leke veya dalgalanma bırakmaz.",
+    features: ["İz bırakmayan formül", "Hızlı kuruma özelliği","Buğu ve kir oluşumunu azaltmaya yardımcı","Sprey form ile pratik kullanım","500 ml ekonomik boy"],
+    usage: "Cam yüzeye ürünü püskürtün. Temiz bir mikrofiber bez ile silin. Gerekirse kuru bez ile son parlatmayı yapın."
+  },
 
   {
     id: 16,
@@ -273,7 +288,285 @@ const products = [
     features: ["Yüksek su tutuşu", "Ergonomik yapı"],
     usage: "Şampuanlı suya batırarak köpürtün. Aracın her bölgesini dairesel hareketlerle nazikçe silerek yıkayın ve kirlendikçe temiz suyla durulayıp tekrar şampuanlayın."
   },
-  
+
+   {
+    id: 23,
+    brand: "Nanowash",
+    name: "Seramik Etkili Hızlı Cila 500 ml – Yüksek Parlaklık & Su İtici Oto Sprey",
+    oldPrice: 300.00,
+    price: 240,
+    image: "/products/n-hizli-cila.png",
+    images: ["/products/n-hizli-cila1.png","/products/n-hizli-cila2.png","/products/n-hizli-cila3.png"],
+    category: ["dis-bakim"],
+    description: "Araç boyasında zamanla oluşan mat görünüm, su lekeleri ve yüzey kirleri aracın estetiğini azaltır. Nanowash MW Seramik Etkili Hızlı Cila, özel geliştirilmiş formülü sayesinde yüzeye anında parlaklık kazandırır ve su itici koruma sağlar. Sprey formu sayesinde pratik uygulama sunar. Araç yüzeyine uygulandıktan sonra boya üzerinde kaygan bir tabaka oluşturarak hem parlaklık hem de kısa süreli koruma sağlar.",
+    features: ["Seramik etkili parlaklık", "Su itici (hydrophobic) yüzey etkisi","Islak ve derin parlak görünüm","Sprey form ile pratik kullanım","Boya yüzeyinde kayganlık sağlar","500 ml ekonomik boy"],
+    usage: "Aracı yıkayıp kuruladıktan sonra uygulayınız. Ürünü yüzeye ince bir tabaka halinde püskürtün. Temiz mikrofiber bez ile yayın ve parlatın. En iyi sonuç için kapalı ortamda uygulama önerilir. "
+  },
+
+  {
+    id: 24,
+    brand: "Nanowash",
+    name: "Lastik Parlatıcı 500 ml – Uzun Süreli Islak Görünüm & Siyahlatıcı Tire Shine Sprey",
+    oldPrice: 290.00,
+    price: 220.00,
+    image: "/products/n-lastik-parlatici.png",
+    images: ["/products/n-lastik-parlatici1.png","/products/n-lastik-parlatici2.png","/products/n-lastik-parlatici3.png"],
+    category: ["dis-bakim"],
+    description: "Zamanla güneş ışığı, yol koşulları ve yıkama işlemleri lastik yüzeyinin matlaşmasına ve solgun görünmesine neden olur. Nanowash MW Lastik Parlatıcı, özel formülü sayesinde lastiklere derin siyah ve ıslak görünüm kazandırır. Uygulama sonrası lastik yüzeyinde estetik ve canlı bir görünüm oluşur. Araç detay temizliği sonrası profesyonel bir bitiş sağlar.",
+    features: ["Derin siyah görünüm sağlar", "Lastik yüzeyini canlandırır","Islak ve derin parlak görünüm","Sprey form ile kolay uygulama","500 ml ekonomik boy"],
+    usage: "Lastik yüzeyini temizleyin ve kurulayın. Ürünü lastik yanak kısmına püskürtün. Sünger veya aplikatör ile yüzeye yayın. Fazlalığı temiz bez ile alabilirsiniz. En iyi sonuç için temiz ve kuru lastik yüzeyine uygulanması önerilir."
+  },
+
+  {
+    id: 25,
+    brand: "Nanowash",
+    name: "Detay Temizleyici 500 ml – Araç İçi Genel Yüzey ve Torpido Temizleme Spreyi",
+    oldPrice: 280.00,
+    price: 210.00,
+    image: "/products/n-detay-temizleyici.png",
+    images: ["/products/n-detay-temizleyici1.png","/products/n-detay-temizleyici2.png","/products/n-detay-temizleyici3.png"],
+    category: ["ic-bakim"],
+    description: "Araç iç yüzeylerinde zamanla oluşan toz, kir, parmak izi ve hafif yağ kalıntıları hem estetik görünümü bozar hem de bakımsız bir his oluşturur. Nanowash MW Detay Temizleyici, araç iç trim, torpido ve plastik yüzeylerde etkili temizlik sağlar.Özel formülü sayesinde yüzeylerde kalıntı bırakmadan temizlik yapar ve doğal bir görünüm kazandırır.",
+    features: ["Araç içi detay temizliği için ideal", "Torpido ve plastik yüzey temizleyici","İz bırakmadan temizlik","Sprey form ile kolay uygulama","500 ml ekonomik boy"],
+    usage: "Ürünü temizlenecek yüzeye püskürtün. Mikrofiber bez ile silin. Gerekirse kuru bez ile son geçiş yapın."
+  },
+
+  {
+    id: 26,
+    brand: "Nanowash",
+    name: "Torpido Parlatıcı 500 ml – Araç İçi Plastik ve Dashboard Parlatıcı Sprey",
+    price: 250.00,
+    image: "/products/n-torpido-parlatici.png",
+    images: ["/products/n-torpido-parlatici1.png","/products/n-torpido-parlatici2.png","/products/n-torpido-parlatici3.png"],
+    category: ["ic-bakim"],
+    description: "Araç iç plastik yüzeyler zamanla matlaşabilir ve solgun bir görünüm alabilir. Nanowash MW Torpido Parlatıcı, torpido, konsol ve iç plastik yüzeylerde canlı ve bakımlı bir görünüm sağlar. Özel formülü sayesinde yüzey üzerinde estetik bir parlaklık oluşturur ve araç iç mekanına yenilenmiş bir görünüm kazandırır.",
+    features: ["Torpido ve plastik yüzey parlatıcı", "Araç içi konsol ve trim uyumlu","Canlı ve bakımlı görünüm","Sprey form ile kolay uygulama","500 ml ekonomik boy"],
+    usage: "Yüzeyi tozdan arındırın. Ürünü torpido veya plastik yüzeye püskürtün. Temiz bir bez ile eşit şekilde yayın. En iyi sonuç için temiz ve kuru yüzeye uygulanması önerilir."
+  },
+
+  {
+    id: 27,
+    brand: "Nanowash",
+    name: "Demir Tozu Temizleyici 500 ml – Jant ve Boya Yüzeyi İçin Güçlü Pas Sökücü",
+    price: 310.00,
+    image: "/products/n-demir-tozu.png",
+    images: ["/products/n-demir-tozu1.png","/products/n-demir-tozu2.png","/products/n-demir-tozu3.png"],
+    category: ["dis-bakim"],
+    description: "Araç jantlarında ve boya yüzeyinde zamanla biriken demir tozu, fren kalıntıları ve pas partikülleri sıradan temizlik ürünleri ile tamamen temizlenemez. Nanowash MW Demir Tozu Temizleyici, özel aktif formülü sayesinde yüzeye tutunan metal partikülleri çözerek derinlemesine temizlik sağlar. Jant yüzeyi ve araç boyasında güvenle kullanılabilir.",
+    features: ["Demir tozu ve fren kalıntılarını çözer", "Pas partiküllerini arındırır","Jant ve boya yüzeyine uygundur","Sprey form ile kolay uygulama","500 ml ekonomik boy"],
+    usage: "Ürünü temizlenecek jant veya boya yüzeyine püskürtün. 2–3 dakika bekleyin. Gerekirse yumuşak fırça ile destekleyin. Bol su ile durulayın."
+  },
+
+  {
+    id: 28,
+    brand: "Nanowash",
+    name: "Torpido Bakım Kremi 500 ml – Araç İçi Plastik ve Konsol Besleyici Parlatıcı",
+    price: 240.00,
+    image: "/products/n-torpido-krem.png",
+    images: ["/products/n-torpido-krem1.png","/products/n-torpido-krem2.png","/products/n-torpido-krem3.png"],
+    category: ["ic-bakim"],
+    description: "Araç iç plastik yüzeyler zamanla kuruyabilir, matlaşabilir ve solgun bir görünüm alabilir. Nanowash MW Torpido Bakım Kremi, özel formülü sayesinde torpido ve plastik yüzeylerde derin bakım sağlar. Krem formu sayesinde yüzeye daha yoğun temas ederek daha homojen bir uygulama sunar ve araç iç mekanına bakımlı bir görünüm kazandırır.",
+    features: ["Torpido ve plastik yüzey bakım kremi", "Araç içi konsol ve trim uyumlu","Besleyici ve canlandırıcı etki","Krem form sayesinde kontrollü uygulama","500 ml ekonomik boy"],
+    usage: "Yüzeyi temizleyin ve kurulayın. Ürünü sünger veya bez yardımıyla yüzeye uygulayın. Eşit şekilde yayın. Fazlalığı kuru bez ile alabilirsiniz. En iyi sonuç için temiz ve kuru yüzeye uygulanması önerilir."
+  },
+
+  {
+    id: 29,
+    brand: "Nanowash",
+    name: "Jel Lastik Parlatıcı 500 ml – Yoğun ve Kalıcı Siyahlatıcı Gel Tire Polish",
+    oldPrice: 320.00,
+    price: 250.00,
+    image: "/products/n-lastik-jel.png",
+    images: ["/products/n-lastik-jel1.png","/products/n-lastik-jel2.png","/products/n-lastik-jel3.png"],
+    category: ["dis-bakim"],
+    description: "Araç lastiklerinde zamanla oluşan matlaşma ve solgun görünüm, aracın genel estetiğini olumsuz etkiler. Nanowash MW Jel Lastik Parlatıcı, yoğun jel formu sayesinde lastik yüzeyine daha güçlü tutunur ve daha kalıcı bir siyahlatıcı etki sağlar. Sprey ürünlere göre daha kontrollü uygulama sunar ve lastik yüzeyinde homojen dağılım sağlar.",
+    features: ["Jel form sayesinde yoğun etki", "Lastiklere derin siyah ve parlak görünüm kazandırır","Uzun süreli parlaklık","Daha kontrollü uygulama","500 ml ekonomik boy"],
+    usage: "Lastik yüzeyini temizleyin ve kurulayın. Jel ürünü sünger veya aplikatör yardımıyla lastik yanak kısmına uygulayın. Yüzeye eşit şekilde yayın. Fazla ürünü bez ile alabilirsiniz. En iyi sonuç için temiz ve kuru lastik yüzeyine uygulanması önerilir."
+  },
+
+  {
+    id: 30,
+    brand: "Nanowash",
+    name: "Konsantre Oto Şampuanı 1 Litre – Yüksek Köpük ve Derin Temizlik",
+    oldPrice: 320.00,
+    price: 250.00,
+    image: "/products/n-sampuan.png",
+    images: ["/products/n-sampuan1.png","/products/n-sampuan2.png","/products/n-sampuan3.png"],
+    category: ["dis-bakim"],
+    description: "Araç yüzeyinde biriken toz, yol kiri ve çevresel kalıntılar sıradan deterjanlarla temizlendiğinde boya yüzeyine zarar verebilir. Nanowash Oto Şampuanı, araç yıkama için özel olarak geliştirilmiş formülü sayesinde etkili temizlik sağlar. Yoğun köpük yapısı sayesinde kirleri yüzeyden güvenli şekilde uzaklaştırmaya yardımcı olur ve yıkama sırasında daha kontrollü temizlik sunar.",
+    features: ["Konsantre formül", "Yüksek köpük etkisi","Derin temizlik","Parlaklık kazandıran yapı","1 litre ekonomik boy"],
+    usage: "Kovaya su ekleyin. Üründen uygun miktarda ekleyin. Sünger veya yıkama eldiveni ile aracı temizleyin. Bol su ile durulayın."
+  },
+
+  {
+    id: 31,
+    brand: "Nanowash",
+    name: "Araç İçi Parfüm 400 ml – Kalıcı Oto Koku Spreyi (Ocean, Amber, Vanilla, Mystic, Infinity)",
+    price: 280.00,
+    image: "/products/n-koku.png",
+    images: ["/products/n-koku1.png","/products/n-koku2.png","/products/n-koku3.png","/products/n-koku4.png","/products/n-koku5.png","/products/n-koku6.png"],
+    category: ["ic-bakim"],
+    description: "Araç içinde oluşan kötü kokular sürüş keyfini olumsuz etkiler. Nanowash Oto Parfüm, özel formülü sayesinde araç iç mekanında ferah, kalıcı ve dengeli bir koku sağlar. Sprey formu sayesinde torpido, koltuk altı, paspas ve araç içi hava alanlarında pratik şekilde uygulanabilir.",
+    features: ["Sprey form ile kolay kullanım", "Kalıcı ve dengeli koku yayılımı","Araç içi kullanım için ideal","Profesyonel oto detay uygulamalarına uygun","400 ml büyük hacim"],
+    usage: "Ürünü araç içi yüzeylere doğrudan sıkmayın. Paspas, koltuk altı veya hava sirkülasyon alanlarına püskürtün. İhtiyaca göre tekrar uygulama yapabilirsiniz."
+  },
+
+  {
+    id: 32,
+    brand: "Nanowash",
+    name: "Aerosol Torpido Parlatıcı 500 ml – Plastik Yenileyici ve Parlatıcı",
+    oldPrice: 350.00,
+    price: 300,
+    image: "/products/n-torpido-aerosol.png",
+    images: ["/products/n-torpido-aerosol1.png","/products/n-torpido-aerosol2.png","/products/n-torpido-aerosol3.png"],
+    category: ["ic-bakim"],
+    description: "Araç içi plastik yüzeyler zamanla güneş ışığı ve kullanım nedeniyle matlaşır. Nanowash Torpido Parlatıcı Aerosol, özel formülü sayesinde kokpit ve plastik yüzeylere canlı, bakımlı ve estetik bir görünüm kazandırır. Aerosol formu sayesinde ürünü yüzeye eşit şekilde dağıtır ve homojen bir parlaklık sağlar.",
+    features: ["Torpido ve plastik yüzeylerde etkili", "Matlaşmayı azaltmaya yardımcı olur","Canlı ve bakımlı görünüm sağlar","Kolay ve pratik uygulama","500 ml aerosol form"],
+    usage: "Ürünü çalkalayın. 20-25 cm mesafeden yüzeye püskürtün. Temiz bez ile yayın. Fazlalığı mikrofiber bez ile alabilirsiniz."
+  },
+
+  {
+    id: 33,
+    brand: "Nanowash",
+    name: "Aerosol Lastik Parlatıcı 500 ml – Derin Siyah ve Islak Görünüm",
+    price: 96.90,
+    image: "/products/n-lastik-aerosol.png",
+    images: ["/products/n-lastik-aerosol1.png","/products/n-lastik-aerosol2.png","/products/n-lastik-aerosol3.png"],
+    category: ["dis-bakim"],
+    description: "Güneş ışığı, yol koşulları ve yıkama işlemleri lastik yüzeyinin zamanla solmasına ve matlaşmasına neden olur. Nanowash Aerosol Lastik Parlatıcı, özel formülü sayesinde lastiklere derin siyah ve estetik ıslak görünüm kazandırır. Uygulama sonrası lastikler daha bakımlı, canlı ve dikkat çekici görünür. Araç detay temizliğinin en etkili tamamlayıcı ürünlerinden biridir.",
+    features: ["Derin siyah görünüm", "Islak ve parlak bitiş","Homojen dağılım","Kolay ve pratik uygulama","500 ml aerosol form"],
+    usage: "Ürünü iyice çalkalayın. 15-20 cm mesafeden lastik yanak kısmına püskürtün. Gerekirse sünger ile yayabilirsiniz. Fazla ürünü bez ile alabilirsiniz. En iyi sonuç için temiz ve kuru lastik yüzeyine uygulanması önerilir."
+  },
+
+  {
+    id: 34,
+    brand: "Nanowash",
+    name: "Aerosol Motor Temizleyici 500 ml – Yağ ve Kir Çözücü",
+    price: 96.90,
+    image: "/products/n-motor-aerosol.png",
+    images: ["/products/n-motor-aerosol1.png","/products/n-motor-aerosol2.png","/products/n-motor-aerosol3.png"],
+    category: ["dis-bakim"],
+    description: "Motor bölmesinde zamanla biriken yağ, toz ve kir kalıntıları hem estetik görünümü bozar hem de bakım işlemlerini zorlaştırır. Nanowash Motor Temizleyici, özel aerosol formülü sayesinde motor yüzeyindeki kir ve yağ kalıntılarını etkili şekilde çözmeye yardımcı olur. Aerosol formu sayesinde ürün yüzeye homojen şekilde yayılır ve ulaşılması zor alanlara kolayca nüfuz eder.",
+    features: ["Motor yüzeyinde etkili temizlik", "Yağ ve kir çözücü yapı","Homojen dağılım","Kolay ve pratik uygulama","500 ml aerosol form"],
+    usage: "Motor soğukken uygulama yapınız. Ürünü kirli yüzeye püskürtünüz. 1-2 dakika bekleyiniz. Gerekirse fırça ile destekleyiniz. Nemli bez ile siliniz veya düşük basınçlı su ile durulayınız. Elektrik aksamına doğrudan uygulama yapmaktan kaçınınız."
+  },
+
+  {
+    id: 35,
+    brand: "Nanowash",
+    name: "Aerosol Detay Köpük Temizleyici 500 ml – İç Döşeme ve Plastik Temizleyici",
+    price: 96.90,
+    image: "/products/n-detay-aerosol.png",
+    images: ["/products/n-detay-aerosol1.png","/products/n-detay-aerosol2.png","/products/n-detay-aerosol3.png"],
+    category: ["ic-bakim"],
+    description: "Araç içi yüzeylerde zamanla oluşan toz, lekeler ve kullanım izleri estetik görünümü bozar. Nanowash Detay Köpük Temizleyici, özel formülü sayesinde iç döşeme, plastik ve vinil yüzeylerde etkili temizlik sağlar. Köpük formu sayesinde kir yüzeyde tutunur ve daha kontrollü temizlik imkanı sunar.",
+    features: ["İç döşeme ve plastik yüzeylere uygun", "Kontrollü köpük yapısı","Pratik ve hızlı uygulama","Profesyonel detay temizlik ürünü","500 ml aerosol köpük form"],
+    usage: "Ürünü çalkalayın. Temizlenecek yüzeye köpüğü uygulayın. Birkaç dakika bekleyin. Mikrofiber bez veya fırça ile silin. Hassas yüzeylerde küçük bir alanda test edilmesi önerilir."
+  },
+
+  {
+    id: 36,
+    brand: "Nanowash",
+    name: "Zift Söktürücü 500 ml – Zift ve Katran Lekesi Çözücü",
+    price: 96.90,
+    image: "/products/n-zift.png",
+    images: ["/products/n-zift1.png","/products/n-zift2.png","/products/n-zift3.png"],
+    category: ["dis-bakim"],
+    description: "Uzun yol sürüşleri sonrası araç yüzeyinde oluşan zift, katran ve asfalt lekeleri standart oto şampuanları ile temizlenemez. Nanowash Zift Söktürücü, özel formülü sayesinde boya yüzeyine zarar vermeden bu inatçı kalıntıların çözülmesine yardımcı olur. Yüzeydeki siyah noktalar, yol katranı ve yapışkan kalıntılar için etkili bir çözümdür.",
+    features: ["Zift ve katran lekelerinde etkili", "Boya yüzeyine zarar vermeden temizlik","Hızlı ve kontrollü uygulama","Profesyonel oto bakım ürünü","500 ml pratik sprey form"],
+    usage: "Ürünü kuru yüzeye püskürtün. 1-2 dakika bekleyin. Mikrofiber bez ile silin. Gerekirse işlemi tekrarlayın. Uygulama sonrası yüzeyin yıkanması önerilir."
+  },
+
+  {
+    id: 37,
+    brand: "Nanowash",
+    name: "Yapışkan İz Sökücü 500 ml – Sticker ve Bant Kalıntı Temizleyici",
+    price: 96.90,
+    image: "/products/n-yapiskan.png",
+    images: ["/products/n-yapiskan1.png","/products/n-yapiskan2.png","/products/n-yapiskan3.png"],
+    category: ["dis-bakim","ic-bakim"],
+    description: "Araç yüzeylerinde sticker, bant, logo veya folyo sökümü sonrası oluşan yapışkan kalıntılar estetik görünümü bozar ve normal temizlik ürünleri ile çıkmaz. Nanowash Yapışkan İz Sökücü, özel formülü sayesinde yüzeye zarar vermeden yapışkan kalıntıların çözülmesine yardımcı olur.",
+    features: ["Sticker ve bant kalıntılarında etkili", "Folyo söküm sonrası kullanım için ideal","Boya yüzeyine zarar vermeden temizlik","Profesyonel oto bakım ürünü","500 ml pratik sprey form"],
+    usage: "Ürünü kuru yüzeye püskürtün. 1-2 dakika bekleyin. Mikrofiber bez ile silin. Gerekirse işlemi tekrarlayın. Hassas yüzeylerde küçük bir alanda test edilmesi önerilir."
+  },
+
+  {
+    id: 38,
+    brand: "Nanowash",
+    name: "Kireç Lekesi Temizleyici 500 ml – Cam ve Boya Üzerindeki Su Lekesi Giderici",
+    price: 96.90,
+    image: "/products/n-kirec.png",
+    images: ["/products/n-kirec1.png","/products/n-kirec2.png","/products/n-kirec3.png"],
+    category: ["dis-bakim"],
+    description: "Araç yıkama sonrası veya yağmurdan sonra araç yüzeyinde oluşan su ve kireç lekeleri zamanla boya ve cam yüzeyde iz bırakabilir. Nanowash Kireç Lekesi Temizleyici, özel formülü sayesinde cam, kaporta ve plastik yüzeylerde oluşan kireç ve su lekelerini çözmeye yardımcı olur.",
+    features: ["Cam ve boya üzerindeki su lekelerinde etkili", "Kireç kalıntılarını çözmeye yardımcı olur","Profesyonel oto bakım ürünü","Kolay uygulama","500 ml konsantre formül"],
+    usage: "Ürünü temizlenecek yüzeye uygulayın. 1-2 dakika bekleyin. Mikrofiber bez ile silin. Gerekirse uygulamayı tekrarlayın."
+  },
+
+  {
+    id: 39,
+    brand: "Autokey",
+    name: "Fren Balata Temizleyici Sprey 500 ml – Güçlü Yağ ve Kir Çözücü Brake Cleaner",
+    price: 96.90,
+    image: "/products/a-balata.png",
+    images: ["/products/a-balata1.png","/products/a-balata2.png","/products/a-balata3.png"],
+    category: ["dis-bakim"],
+    description: "Autokey Fren Balata Spreyi, araç fren sistemlerinde biriken balata tozu, yağ ve kir kalıntılarını temizlemek için geliştirilmiş güçlü bir temizleyicidir. Fren diskleri, balatalar ve metal yüzeylerde oluşan kirleri hızlı şekilde çözmeye yardımcı olur ve fren sisteminin daha verimli çalışmasına katkı sağlar. Oto servisleri, ustalar ve araç bakım kullanıcıları tarafından tercih edilen pratik bir bakım ürünüdür.",
+    features: ["Güçlü yağ ve kir çözücü formül", "Fren balata ve disk temizliği için ideal","Kalıntı bırakmadan temizlik","Profesyonel oto bakım ürünü","500 ml aerosol sprey"],
+    usage: "Ürünü temizlenecek yüzeye püskürtün. Yağ ve kirlerin çözülmesini bekleyin. Gerekirse bez veya fırça ile temizleyin. Kurumasını bekleyin."
+  },
+
+  {
+    id: 40,
+    brand: "Autokey",
+    name: "DR-40 Çok Amaçlı Bakım Spreyi 200 ml – Pas Sökücü, Yağlayıcı ve Koruyucu",
+    price: 96.90,
+    image: "/products/a-cokamac.png",
+    images: ["/products/a-cokamac1.png","/products/a-cokamac2.png","/products/a-cokamac3.png"],
+    category: ["dis-bakim"],
+    description: "Autokey DR-40 Çok Amaçlı Bakım Spreyi, paslanmış ve sıkışmış mekanik parçaların açılmasına yardımcı olan, aynı zamanda yüzeyleri yağlayan ve koruyan çok yönlü bir bakım ürünüdür. Metal yüzeylerde oluşan pas ve kirin çözülmesine yardımcı olurken hareketli parçaların daha rahat çalışmasını sağlar. Ev, otomobil, motosiklet ve birçok mekanik ekipmanda güvenle kullanılabilir. Pratik aerosol formu sayesinde ulaşılması zor alanlara kolayca uygulanabilir.",
+    features: ["Paslanmış ve sıkışmış parçaları açmaya yardımcı olur", "Çok amaçlı yağlama ve bakım sağlar","Metal yüzeyleri korumaya yardımcı olur","Günlük bakım ve tamir işlemleri için ideal","500 ml aerosol sprey"],
+    usage: "Spreyi uygulamak istediğiniz yüzeye püskürtün. Etki etmesi için kısa süre bekleyin. Gerekirse bez veya fırça ile temizleyin. İhtiyaç halinde uygulamayı tekrarlayın."
+  },
+
+  {
+    id: 41,
+    brand: "Autokey",
+    name: "Lastik Parlatıcı Jel 500 ml + Uygulama Süngeri – Kalıcı Parlaklık ve Koruma",
+    price: 96.90,
+    image: "/products/a-lastik-jel.png",
+    images: ["/products/a-lastik-jel1.png","/products/a-lastik-jel2.png","/products/a-lastik-jel3.png"],
+    category: ["dis-bakim"],
+    description: "Autokey Lastik Parlatıcı Jel, araç lastiklerine derin siyah görünüm ve parlaklık kazandırmak için geliştirilmiş profesyonel bir bakım ürünüdür. Özel jel formülü sayesinde lastik yüzeyine kolayca uygulanır, yüzeye tutunarak uzun süreli parlaklık ve bakımlı bir görünüm sağlar. Ürün ile birlikte gelen uygulama süngeri sayesinde lastik yüzeyine pratik ve dengeli bir şekilde uygulanabilir.",
+    features: ["Jel formülü sayesinde uzun süre kalıcı etki", "Lastiklere derin siyah ve parlak görünüm kazandırır","Lastik yüzeyinde bakımlı görünüm oluşturur","Kolay uygulama sağlayan sünger hediyeli","500 ml jel form"],
+    usage: "Lastik yüzeyinin temiz ve kuru olduğundan emin olun. Ürünü uygulama süngeri ile lastik yüzeyine sürün. Tüm yüzeye eşit şekilde dağıtın. Daha parlak görünüm için uygulamayı tekrarlayabilirsiniz."
+  },
+
+  {
+    id: 42,
+    brand: "Auto Deepen",
+    name: "Lastik Parlatıcı 500 ml – Tire Shine Sprey Lastik Parlatma ve Bakım Ürünü",
+    price: 96.90,
+    image: "/products/ad-lastik.png",
+    images: ["/products/ad-lastik1.png","/products/ad-lastik2.png","/products/ad-lastik3.png"],
+    category: ["dis-bakim"],
+    description: "Auto Deepen Lastik Parlatıcı, araç lastiklerine parlak ve bakımlı bir görünüm kazandırmak için geliştirilmiş pratik bir lastik bakım ürünüdür. Özel formülü sayesinde lastik yüzeyine kolayca uygulanır ve lastiklerin daha koyu, temiz ve parlak görünmesine yardımcı olur. Araç yıkama sonrası yapılan lastik bakımında profesyonel bir görünüm sağlar. Sprey formu sayesinde lastik yüzeyine hızlı ve kolay şekilde uygulanabilir.",
+    features: ["Lastiklere parlak ve bakımlı görünüm kazandırır", "Kolay uygulanabilen sprey form","Lastik yüzeyinde bakımlı görünüm oluşturur","Kolay uygulama","500 ml pratik kullanım"],
+    usage: "Lastik yüzeyinin temiz ve kuru olduğundan emin olun. Ürünü lastik yüzeyine eşit şekilde püskürtün. Gerekirse sünger veya bez ile yüzeye yayın. Daha parlak görünüm için uygulamayı tekrarlayabilirsiniz."
+  },
+
+  {
+    id: 43,
+    brand: "Auto Deepen",
+    name: "Deri & Vinil Koruyucu Parlatıcı 200 ml – Sünger ve Temizleme Bezi Hediyeli",
+    price: 96.90,
+    image: "/products/ad-vinil.png",
+    images: ["/products/ad-vinil1.png","/products/ad-vinil2.png","/products/ad-vinil3.png"],
+    category: ["ic-bakim"],
+    description: "Auto Deepen Deri ve Vinil Koruyucu Parlatıcı, araç iç mekanındaki deri, vinil ve plastik yüzeylerin temizlenmesine, korunmasına ve parlak bir görünüm kazanmasına yardımcı olan çok amaçlı bir bakım ürünüdür. Özel formülü sayesinde yüzeylerdeki mat görünümü gidererek daha canlı ve bakımlı bir görünüm sağlar. Araç içi yüzeylerin düzenli bakımında tercih edilen pratik bir üründür. Ürün ile birlikte gelen uygulama süngeri ve temizleme bezi sayesinde yüzeye kolay ve dengeli bir şekilde uygulanabilir.",
+    features: ["Deri ve vinil yüzeyler için bakım ve koruma", "Plastik ve torpido yüzeylerde parlak görünüm","Uygulama süngeri ve temizleme bezi hediyeli","Araç iç mekan bakımına uygun formül","200 ml pratik kullanım"],
+    usage: "Uygulama yapılacak yüzeyin temiz ve kuru olduğundan emin olun. Ürünü uygulama süngeri veya bez ile yüzeye sürün. Tüm yüzeye eşit şekilde dağıtın. Fazla ürünü temizleme bezi ile silebilirsiniz."
+  },
 ];
 
 export default products;
